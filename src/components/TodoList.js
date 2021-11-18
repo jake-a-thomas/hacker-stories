@@ -45,14 +45,6 @@ function TodoList() {
       </select>
 
       <Form onSubmit={addTask} />
-
-      <TaskList
-        tasks={tasks}
-        filter={filter}
-        changeStatus={changeStatus}
-        deleteTask={deleteTask}
-        editTask={editTask}
-      />
     </div>
   );
 }
